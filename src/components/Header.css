@@ -1,0 +1,19 @@
+.heading-color {
+    color: #5e5e5e;
+}
+
+.header-name-wrapper {
+    height: 80px;
+}
+
+.header-name {
+    margin-left: 10px;
+}
+
+.header-heading-custom {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    max-width: 100%;
+}

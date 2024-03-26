@@ -1,0 +1,161 @@
+.form-mt {
+    margin-top: 24px !important;
+    margin-bottom: 0 !important;
+    width: 256px;
+}
+
+.form-policy {
+    width: 256px;
+}
+
+.policy-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    appearance: none;
+    box-shadow: rgb(207, 207, 206) 0px 0px 0px 1px inset;
+    border-radius: 3px;
+    transition: background-color 0.15s ease 0s;
+}
+
+.policy-checkbox:focus:not(.focus-visible) {
+    outline: none;
+}
+
+.policy-checkbox:checked {
+    background-color: #191919;
+}
+
+.policy-checkbox:checked::before {
+    content: "";
+    color: white;
+    background: url(https://www.typeform.com/static/signup-page/check-white.svg) 50% 4px no-repeat;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.policy-checkbox:focus {
+    outline: none;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px, rgba(38, 38, 39, 0.4) 0px 0px 0px 3px;
+}
+
+.policy-link {
+    display: block;
+    color: #191919;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.policy-link a {
+    text-decoration: underline;
+    color: #191919;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.policy-options-icon {
+    rotate: 180deg;
+}
+
+.policy-option-marketing {
+    color: #191919;
+    line-height: 20px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.policy-options-wrapper {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+}
+
+.policy-options-btn {
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.policy-options-btn p {
+    font-size: 14px;
+    margin: 0;
+    color: inherit;
+}
+
+.hidden-options-menu {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 200ms ease-in 0s;
+}
+
+.expand-options-menu {
+    max-height: 375px;
+    overflow: hidden;
+    transition: max-height 200ms ease-in 0s;
+}
+
+.radio-custom input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 50%;
+    margin-bottom: 0;
+    margin-top: 0;
+    outline: 0px;
+    transition: all 0.2s ease-in-out 0s;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(194, 194, 193);
+}
+
+.radio-custom input[type="radio"]:checked:enabled {
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgb(25, 25, 25);
+}
+
+.policy-option-wrap-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.radio-btn-wrapper {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 0px 12px;
+}
+
+.label-radio-btn {
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.label-radio-btn span {
+    font-size: 14px;
+    color: inherit;
+    margin: 0px 16px 0px 12px;
+    padding-top: 2px;
+}
+
+.text-footer-expand {
+    color: #7F7F7F;
+    font-size: 14px;
+    margin: 0;
+}
